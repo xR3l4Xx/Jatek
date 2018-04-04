@@ -1,9 +1,7 @@
-
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("");
+		System.out.println("Hasznaljuk amit irtal engin-t, vagy csinaljunk ujat es faszat?:D");
 	}
 
 }
