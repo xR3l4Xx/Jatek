@@ -38,6 +38,11 @@ public class Vector2 {
 		return new Vector2(this.x + vector.getX(), this.y + vector.getY());
 	}
 	
+	public static double dot(Vector2 a, Vector2 b){
+		double dotProduct = a.x*b.x + a.y*b.y;
+		return dotProduct;
+	}
+	
 	public double getX() {
 		return x;
 	}
